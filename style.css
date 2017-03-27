@@ -1,0 +1,73 @@
+body {
+  padding: 0;
+  margin: 0;
+  background: #CDF28B;
+  /* Old browsers */
+  background: -moz-linear-gradient(25deg, #CEA648 0%, #EADAB4 70%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(25deg, #CEA648 0%, #EADAB4 70%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(25deg, #CEA648 0%, #EADAB4 70%);
+}
+
+/** Header styles **/
+
+.header {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/e/ef/English_Westminster_Tea.jpg);
+  height: 400px;
+  background-position: center center;
+}
+
+h1 {
+  color: #F1F9FB;
+  font-family: 'Macondo', sans-serif;
+  font-size: 100px;
+  line-height: 50px;
+  margin: 0;
+  position: relative;
+  text-align: center;
+  top: 35%;
+}
+
+/** List style **/
+
+h2 {
+  color: #BA9026;
+  font-family: 'Signika', sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+ul {
+  margin: 0 auto;
+  padding: 0;
+  width: 70%;
+}
+
+li {
+  border-bottom: 1px solid #BA9026;
+  list-style: none;
+  margin: 100px 0px;
+  padding-bottom: 50px;
+}
+
+p {
+  color: #555;
+  line-height: 32px;
+  font-family: 'Signika', sans-serif;
+  font-size: 22px;
+  font-weight: 200;
+}
+
+a {
+  color: #711E34;
+  font-family: 'Signika', sans-serif;
+  font-size: 16px;
+  font-weight: 1100;
+  text-align: left;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
